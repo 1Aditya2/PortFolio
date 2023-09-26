@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./About.scss";
+import "./About.scss";                            
 function About() {
-  const [para,setpara]=useState('Self-taught since my youngest age, I love learning new things to improve my skills. Very curious by nature, I love the world of the web and new technologies, what I like most is the art and the precision behind each design. With all my skills and knowledge, I will have the pleasure to devote myself fully to the development of your ideas in order to make them great projects.')
+  const [para,setpara]=useState('I am just a witty man with curious brain and a zeal to know about new technologies in the world of web. I have a passion for crafting art with great precision and details. It will be a pleasure for me to apply all my knowledge and skills on your imagination and turn them into a reality.')
   function handleClick(e){
     const l1=document.getElementById("1");
     const l2=document.getElementById("2");
@@ -28,13 +28,14 @@ function About() {
     
     const t=e.target.textContent
     if(t=='My Story'){
-      setpara('Self-taught since my youngest age, I love learning new things to improve my skills. Very curious by nature, I love the world of the web and new technologies, what I like most is the art and the precision behind each design. With all my skills and knowledge, I will have the pleasure to devote myself fully to the development of your ideas in order to make them great projects')
+      setpara('I am just a witty man with curious brain and a zeal to know about new technologies in the world of web. I have a passion for crafting art with great precision and details. It will be a pleasure for me to apply all my knowledge and skills on your imagination and turn them into a reality.')
     }
     else if(t=='Experience'){
-      setpara('During my experiences, I participated in several hackathons organized by my school. These events were intensive periods of one to two weeks during which we had to develop a project meeting the requirements of the client. As a self-taught person, I worked hard to improve my skills and become more independent. I focused on developing my programming and design skills to be more efficient. As a freelancer, I have worked on various projects to satisfy my clients request. I enjoy listening to their needs and finding solutions to meet their expectations. Thanks to this experience, I have acquired a good understanding of the clients needs in order to create viable projects that meet their expectations.')
+      setpara('When it comes to experience, I have been working on several projects and technologies from the last one year. I have worked on projects based on MERN Stack, some of them are Social Media Application, Full Stack To Do Application, Online ID Card generation and many more. I have also contributed towards combining Machine learning and ReactJS in Movie Recommendation Site and currently planning to make Chat Application from ReactJS with auto predict and auto translate functionality. In backend, I have good experience with MongoDB, NodeJS, ExpressJS and Strapi for CMS Speaking of job/internship, I am on the look out for them, if you are a recruiter do not hesitate to contact me.')
     }
     else{
-      setpara('As for my education, I started in my last year of high school with python and I loved it, the way of thinking, optimizing and displaying things only with lines of codes immediately fascinated me. So I decided to go to a computer science school: ETNA. The good thing is that there is alternance and autonomy. You learn by doing exciting projects that stimulate your creativity and your desire to learn. It was when I realized that I wanted to learn more that I started freelancing, a mysterious challenge that opened up to me and made me want to go beyond my limits.')
+     
+      setpara('Speaking of my education, I first learned HTML and CSS in High School , the idea of writing some lines of code and displaying result in the form of visuals, it just fascinated me ,just ignited a spark in me and from there, the never-ending dive into the world of web began. As I delve deeper into it and learned many fascinating techs like ReactJS, SASS, CSS , HTML and a lot more, the spark only turned into a fire. Currently, I am a CSE24 student at GLA University, Mathura with a 7.91 pointer. ')
     }
   }
 
@@ -51,8 +52,8 @@ function About() {
         <div className="nav-info">
           <ul>
             <li className="lnk sel" id='1' value='my story' onClick={handleClick}>My Story</li>
-            <li className="lnk" id="2" value='exp' onClick={handleClick}>Experience</li>
-            <li className="lnk" value='edu' id="3" onClick={handleClick}>Education</li>
+            <li className="lnk" id="2" value='exp' onClick={handleClick}>Education</li>
+            <li className="lnk" value='edu' id="3" onClick={handleClick}>Experience</li>
           </ul>
         </div>
         <div className="abt-info">
