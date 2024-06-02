@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.scss";
-import img from "../../Assets/myImg.png";
+import img from "../../Assets/kwe.png";
 function Hero() {
   return (
     <div className="hero" id="hero">

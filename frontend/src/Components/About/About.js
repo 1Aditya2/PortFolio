@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./About.scss";                            
 function About() {
-  const [para,setpara]=useState('I am just a witty man with curious brain and a zeal to know about new technologies in the world of web. I have a passion for crafting art with great precision and details. It will be a pleasure for me to apply all my knowledge and skills on your imagination and turn them into a reality.')
+  const [para,setpara]=useState(`Hello, I am a passionate and skilled Frontend Developer with a Bachelor's degree in Technology and a strong foundation in computer science principles. I specialize in building robust, user-friendly, and visually appealing web applications. My technical proficiency includes React.js, Next.js, Redux Toolkit, Redux-Saga, Material-UI (MUI), styled-components, and SASS`)
   function handleClick(e){
     const l1=document.getElementById("1");
     const l2=document.getElementById("2");
