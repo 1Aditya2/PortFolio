@@ -28,22 +28,19 @@ function About() {
     
     const t=e.target.textContent
     if(t=='My Story'){
-      setpara('I am just a witty man with curious brain and a zeal to know about new technologies in the world of web. I have a passion for crafting art with great precision and details. It will be a pleasure for me to apply all my knowledge and skills on your imagination and turn them into a reality.')
+      setpara(`Hello, I am a passionate and skilled Frontend Developer with a Bachelor's degree in Technology and a strong foundation in computer science principles. I specialize in building robust, user-friendly, and visually appealing web applications. My technical proficiency includes React.js, Next.js, Redux Toolkit, Redux-Saga, Material-UI (MUI), styled-components, and SASS`)
     }
     else if(t=='Experience'){
-      setpara('When it comes to experience, I have been working on several projects and technologies from the last one year. I have worked on projects based on MERN Stack, some of them are Social Media Application, Full Stack To Do Application, Online ID Card generation and many more. I have also contributed towards combining Machine learning and ReactJS in Movie Recommendation Site and currently planning to make Chat Application from ReactJS with auto predict and auto translate functionality. In backend, I have good experience with MongoDB, NodeJS, ExpressJS and Strapi for CMS Speaking of job/internship, I am on the look out for them, if you are a recruiter do not hesitate to contact me.')
+      setpara('My professional journey has equipped me with a versatile skill set and a deep understanding of the software development lifecycle, enabling me to contribute effectively to any team or project. For the past 8 months, I have worked as a freelance software developer, successfully completing various projects for diverse clients.As a Software Developer at ElevateHQ, I am responsible for designing, developing, and maintaining web applications.I utilize my expertise in React.js, Next.js, Redux Toolkit, Redux-Saga, Material-UI, styled-components, and SASS to create efficient and scalable applications.')
     }
     else{
-     
-      setpara('Speaking of my education, I first learned HTML and CSS in High School , the idea of writing some lines of code and displaying result in the form of visuals, it just fascinated me ,just ignited a spark in me and from there, the never-ending dive into the world of web began. As I delve deeper into it and learned many fascinating techs like ReactJS, SASS, CSS , HTML and a lot more, the spark only turned into a fire. Currently, I am a CSE24 student at GLA University, Mathura with a 7.91 pointer. ')
+      setpara(`I hold a Bachelor's degree in Technology, graduating with a 7.91 pointer as part of the 2024 batch. My academic journey has equipped me with a solid foundation in computer science principles and software development methodologies. Prior to my degree, I completed my schooling in 2019, which laid the groundwork for my passion and proficiency in technology. My education has been instrumental in shaping my technical skills and problem-solving abilities, preparing me for a successful career in frontend development.`)
     }
   }
 
   return (
     <div className="about" id="about">
       <div className="abt">About me</div>
-      
-      
       <div className="info">
         <span className="c1"></span>
         <span className="c2"></span>

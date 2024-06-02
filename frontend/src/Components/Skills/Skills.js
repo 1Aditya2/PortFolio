@@ -3,25 +3,24 @@ import "./Skills.scss";
 function Skills() {
  
   useEffect(() => {
-
-    
-  
     const elts = {
       text1: document.getElementById("text1"),
       text2: document.getElementById("text2")
     };
     
     const texts = [
-      "HTML5",
-      "CSS3",
       "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Redux Toolkit",
+      "Redux-Saga",
+      "MUI",
+      "Styled-Components",
       "SASS",
-      "React JS",
-      "Redux",
-      "Node JS",
-      "Express JS",
-      "Mongo DB",
-      "Java",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
     ];
     
     const morphTime = 1;
